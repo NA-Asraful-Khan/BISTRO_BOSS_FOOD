@@ -19,9 +19,8 @@ const PopularMenu = () => {
           };
           fetchJsonData();
     },[])
-    console.log(menu)
   return (
-    <section className="mb-12">
+    <section className="mb-12 md:mx-12 md:px-12 px-6">
         <SectionTitle
         heading ="From Our Menu"
         subHeading="Popular Items"
@@ -33,6 +32,9 @@ const PopularMenu = () => {
                     item={item}
                     ></MenuItem>)
             }
+        </div>
+        <div className="flex justify-center pt-4">
+          <button className="btn btn-outline border-black hover:bg-black border-b-4 text-black hover:text-white">View Full Menu</button>
         </div>
     </section>
   )

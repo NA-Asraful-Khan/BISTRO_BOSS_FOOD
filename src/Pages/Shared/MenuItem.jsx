@@ -1,7 +1,7 @@
-
+import image from '../../assets/home/popularBG.jpeg'
 const MenuItem = ({item}) => {
     const{name,price,recipe}=item;
-    const image = "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    
   return (
     <div className="flex space-x-4">
         <img className="w-[80px] h-[80px]" style={{borderRadius:'0 200px 200px 200px'}} src={image} alt="" />

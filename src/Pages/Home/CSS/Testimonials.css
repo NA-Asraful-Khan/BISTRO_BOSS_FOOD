@@ -1,0 +1,22 @@
+.slick-prev,
+.slick-next {
+  background-color: #000000;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.slick-prev:hover,
+.slick-next:Hover {
+  background-color: #000000;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 10px; 
+}

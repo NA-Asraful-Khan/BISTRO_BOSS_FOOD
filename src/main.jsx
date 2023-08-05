@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import './index.css'
 import { router } from './Routes/router.jsx';
+import './index.css'
 
 
 

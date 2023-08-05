@@ -10,15 +10,15 @@ const Featured = () => {
         heading={"Featured Item"}
         subHeading={"check it out"}
         ></SectionTitle>
-        <div className='md:flex justify-center items-center py-20 px-36 pt-12  bg-slate-500 bg-opacity-50'>
+        <div className='md:flex justify-center items-center py-20 lg:px-24 md:px-12 pt-12  bg-slate-500 bg-opacity-50'>
             <div>
                 <img src={featuredImg} alt="" />
             </div>
-            <div className='md:ml-10 '>
+            <div className='md:ml-10 p-12 '>
                 <p>Aug 20, 2029</p>
                 <p className='uppercase'>Where can i get some?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eaque modi facilis eius deleniti dolorum, quasi accusamus nisi maiores neque ex ratione quibusdam animi fuga recusandae placeat earum reprehenderit doloremque hic excepturi ab porro nulla adipisci? In vitae minus provident dolorum quo maxime, rem harum debitis consequuntur? Harum, recusandae laborum.</p>
-                <button className="btn btn-outline border-0 border-b-4 glass">Order Now</button>
+                <button className="btn btn-outline border-white hover:bg-white border-b-4 text-white hover:text-black">Order Now</button>
             </div>
         </div>
 
